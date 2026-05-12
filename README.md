@@ -1,16 +1,38 @@
-# React + Vite
+# Apartment Tycoon (アパートタイクーン)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+アパート経営シミュレーションゲームです。資金を運用して階層を増やし、入居者を管理して億万長者を目指しましょう。
 
-Currently, two official plugins are available:
+## 🚀 特徴
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **アパート増築**: 資金を貯めて新しい階層を建設。
+- **入居者オーディション**: 滞納率や騒音度など、個性豊かな候補者から入居者を選択。
+- **家賃設定**: 市場価格や満足度を見ながら家賃を調整。
+- **修繕管理**: 老朽化した部屋をリフォームして入居率を維持。
+- **イベントシステム**: 突発的なトラブルや幸運な出来事が発生。
 
-## React Compiler
+## 🛠 開発環境のセットアップ
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+このプロジェクトは React + Vite で構築されています。
 
-## Expanding the ESLint configuration
+### 依存関係のインストール
+```bash
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 開発サーバーの起動
+```bash
+npm run dev
+```
+
+### ビルド
+```bash
+npm run build
+```
+
+## 🌐 デプロイ
+
+このプロジェクトは GitHub Actions を使用して、GitHub Pages に自動デプロイされるように設定されています。 `main` ブランチにプッシュすると、自動的にビルドとデプロイが行われます。
+
+## 📄 ライセンス
+
+MIT License
